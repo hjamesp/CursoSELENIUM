@@ -14,6 +14,7 @@ public class TesteGoogle {
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://www.google.com.br");
 		Assert.assertEquals("Google", driver.getTitle());
+		System.out.println(driver.getTitle());
 		
 	  }
 
